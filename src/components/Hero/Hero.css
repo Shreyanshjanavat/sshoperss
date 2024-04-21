@@ -1,0 +1,110 @@
+.hero{
+    height: 80vh;
+    background: linear-gradient(180deg,#fde1ff,#e1ffea22 60%);
+    display: flex;
+
+}
+.hero-left{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+    padding-left: 180px;
+    line-height: 1.1;
+}
+.hero-left h2{
+    color: #090909;
+    font-size: 26px;
+    font-weight: 600;
+}
+.hero-left p{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+} 
+.hero-hand-icon{
+    display:flex;
+    align-items: center;
+    gap:20px;
+}
+.hero-hand-icon img{
+   width:105px;
+}
+.hero-latest-btn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+    width:310px;
+    height: 70px;
+    border-radius: 75px;
+    font-weight: 500;
+    font-size: 22px;
+    margin-top: 30px;
+    background: #ff4141;
+    color: white;
+}
+.hero-latest-btn img{
+    width:20px;
+    
+}
+.hero-right{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-right img{
+    height:380px;
+}
+@media (max-width: 480px) {
+    .hero {
+        height: auto; /* Adjust height to auto for smaller screens */
+        padding: 50px 20px; /* Adjusted padding */
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    .hero-left {
+        padding: 0; /* Remove padding */
+        text-align: center; /* Center-align content */
+    }
+
+    .hero-left h2 {
+        font-size: 20px; /* Reduced font size */
+        line-height: 1.2; /* Adjusted line height */
+    }
+
+    .hero-left p {
+        font-size: 32px; /* Reduced font size */
+        line-height: 1.2; /* Adjusted line height */
+    }
+
+    .hero-hand-icon {
+        margin-top: 20px; /* Adjusted margin */
+    }
+
+    .hero-hand-icon img {
+        width: 80px; /* Reduced width for image */
+    }
+
+    .hero-latest-btn {
+        width: 200px; /* Reduced width for button */
+        height: 50px; /* Reduced height for button */
+        font-size: 16px; /* Reduced font size */
+        margin-top: 20px; /* Adjusted margin */
+    }
+
+    .hero-latest-btn img {
+        width: 16px; /* Reduced width for icon */
+    }
+
+    .hero-right {
+        margin-top: 20px; /* Adjusted margin */
+    }
+
+    .hero-right img {
+        height: auto; /* Adjusted height for image */
+        width: 100%; /* Set image width to 100% */
+    }
+}

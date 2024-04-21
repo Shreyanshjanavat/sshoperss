@@ -1,0 +1,93 @@
+.productdisplay {
+    display: flex;
+    
+    margin: 0px 170px; /* Reduced margin for better spacing on smaller screens */
+}
+
+.productdisplay-left {
+    display: flex;
+    /* Adjusted to column layout for smaller screens */
+    gap: 17px;
+}
+
+.productdisplay-img-list {
+    display: flex;
+    flex-direction: column; /* Changed to column layout for smaller screens */
+    gap: 16px; /* Added gap between images */
+    
+}
+
+.productdisplay-img-list img {
+    height: 65px; /* Reduced image height for smaller screens */
+}
+
+.productdispaly-main-img {
+    width: 300px; /* Adjusted width to fill the container on smaller screens */
+    height: 324px; /* Set height to auto for responsive scaling */
+    
+}
+
+.productdisplay-right {
+    margin: 0px 70px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.productdisplay-right h1 {
+    color: #3d3d3d;
+    font-size: 20px; /* Reduced font size for smaller screens */
+    font-weight: 700;
+}
+
+.productdisplay-star {
+    font-size: 12px; /* Increased font size for better readability on smaller screens */
+    margin-top: 8px; /* Reduced margin top for better spacing */
+}
+
+.productdisplay-right-prices {
+   display: flex;
+   align-items: center;
+   margin-top: 13px;
+   gap:5px;
+   color: #1c1c1c;
+   font-size: 16px;
+}
+
+.productdisplay-right-size h1 {
+    margin-top: 12px; /* Reduced margin top for better spacing */
+    font-size: 18px; /* Reduced font size for smaller screens */
+}
+
+.productdisplay-right-sizes {
+    display: flex;
+    margin: 15px 0px;
+    gap: 20px;
+}
+
+.productdisplay-right-sizes div {
+    padding: 18px 24px; /* Reduced padding for better spacing */
+    background: #fbfbfb;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.productdisplay-right button {
+    padding: 20px 40px;
+    width: 200px; /* Set button width to fill the container */
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: #f44141;
+    margin-bottom: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.productdiaplay-right-discription{
+    margin-top: 10px;
+}
+.productdiaplay-right-discription span {
+    font-weight: 600;
+
+}
