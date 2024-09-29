@@ -10,7 +10,7 @@ const cors=require('cors');
 const { setTimeout } = require('timers/promises');
 app.use(express.json());
 app.use(cors())
-mongoose.connect('mongodb://localhost:27017/ecom')
+mongoose.connect('mongodb+srv://shreyanshsharma2030:nlf2030r@cluster0.oibkw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 app.get('/',(req,res)=>{
     res.send("Express app is running");
 })
