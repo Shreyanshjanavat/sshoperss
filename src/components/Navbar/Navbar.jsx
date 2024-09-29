@@ -5,7 +5,7 @@ import logo from '../Assets/logo.png'
 import cart_icon from '../Assets/cart_icon.png'
 import { Link } from 'react-router-dom';
 import { Shopcontext } from '../Context/Shopcontext';
-import nav_dropdown from '../Assets/dropdown_icon.png';
+
 
 const Navbar = () => {
     const[menu,setMenu]=useState('shop1');
